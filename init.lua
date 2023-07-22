@@ -165,7 +165,7 @@ require('onedark').load()
 require'lspconfig'.clangd.setup{}
 require'lspconfig'.jdtls.setup{}
 require'lspconfig'.texlab.setup{}
-
+require'lspconfig'.pylsp.setup{}
 require'sad'.setup({
   debug = false, -- print debug info
   diff = 'delta', -- you can use `less`, `diff-so-fancy`
