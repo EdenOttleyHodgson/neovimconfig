@@ -162,12 +162,6 @@ require('onedark').setup {
     style = 'deep'
 }
 require('onedark').load()
-require'lspconfig'.clangd.setup{}
-require'lspconfig'.jdtls.setup{}
-require'lspconfig'.texlab.setup{}
-require'lspconfig'.pylsp.setup{}
-require'lspconfig'.tsserver.setup{}
-
 require'sad'.setup({
   debug = false, -- print debug info
   diff = 'delta', -- you can use `less`, `diff-so-fancy`
@@ -182,3 +176,10 @@ require'sad'.setup({
 
 --Floaterm config
 vim.cmd("hi Floaterm guibg=black")
+
+require'lspconfig'.clangd.setup{}
+require'lspconfig'.jdtls.setup{}
+require'lspconfig'.texlab.setup{}
+require'lspconfig'.pylsp.setup{}
+require'lspconfig'.tsserver.setup{}
+
