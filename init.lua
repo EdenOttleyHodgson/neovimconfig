@@ -182,4 +182,4 @@ require'lspconfig'.jdtls.setup{}
 require'lspconfig'.texlab.setup{}
 require'lspconfig'.pylsp.setup{}
 require'lspconfig'.tsserver.setup{}
-
+require'lspconfig'.volar.setup{}
