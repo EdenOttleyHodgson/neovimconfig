@@ -182,4 +182,7 @@ require'lspconfig'.jdtls.setup{}
 require'lspconfig'.texlab.setup{}
 require'lspconfig'.pylsp.setup{}
 require'lspconfig'.tsserver.setup{}
-require'lspconfig'.volar.setup{}
+require'lspconfig'.volar.setup{
+    filetypes={'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
+}
+require'lspconfig'.lua_ls.setup{}
